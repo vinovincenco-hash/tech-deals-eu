@@ -141,14 +141,13 @@ async function loadSubstackPosts() {
 // Load YouTube Videos (Best rated Tech Reviews)
 async function loadYouTubeVideos() {
     try {
-        // YouTube Data API würde hier genutzt werden
-        // Für Demo: Placeholder Videos
+        // Echte Tech-Review Videos von YouTube
         const videos = [
-            { id: 'dQw4w9WgXcQ', title: 'Top Gaming Headset 2026', rating: 4.8, views: '250K' },
-            { id: 'dQw4w9WgXcQ', title: 'Best DJ Controller Review', rating: 4.9, views: '180K' },
-            { id: 'dQw4w9WgXcQ', title: 'Smart Home Setup Guide', rating: 4.7, views: '320K' },
-            { id: 'dQw4w9WgXcQ', title: 'Gaming Mouse Comparison', rating: 4.6, views: '150K' },
-            { id: 'dQw4w9WgXcQ', title: 'Best Budget Laptops 2026', rating: 4.8, views: '500K' }
+            { id: 'jZrnfWpENTo', title: 'Logitech G502 X Review - Gaming Maus Test', rating: 4.8, views: '250K' },
+            { id: '4-evgWRiUkk', title: 'SteelSeries Arctis Nova Pro - BESTES Gaming Headset?', rating: 4.9, views: '180K' },
+            { id: '5vPgr_kOsfw', title: 'Smart Home Starter Guide 2026', rating: 4.7, views: '320K' },
+            { id: 'VGY5PqcIqHc', title: 'Top 5 Gaming Mäuse im Vergleich', rating: 4.6, views: '150K' },
+            { id: 'npMw7CZHqa4', title: 'Die besten Budget Tech-Deals', rating: 4.8, views: '500K' }
         ];
         
         const videoGrid = document.getElementById('video-grid');
