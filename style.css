@@ -774,3 +774,10 @@ body {
         flex-direction: column;
     }
 }
+
+/* Category Icons for Bestseller Cards */
+.category-icon {
+    font-size: 6rem;
+    text-align: center;
+    padding: 3rem 0;
+}
